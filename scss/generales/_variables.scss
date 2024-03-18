@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+$Fondo:#427AA1;
+$Letra:'Protest Revolution', sans-serif;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: $Letra;
+    font-size: 6vw;
+    text-align: center;
+}
+h2{
+    font-family: $Letra;
+    font-size: 6vw;
+    text-align: center;
+}
+.logo{
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+.fondo{
+    background-color:$Fondo;
+}
+.mapa{
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+}
+.texto{
+    font-size: 3vw;
+}
+.formulario{
+    text-align: center;
+}
+
+
+@media only screen and (min-width:768px){
+    h1{
+        font-family: $Letra;
+        font-size: 3vw;
+        text-align: center;
+    }
+    h2{
+        font-family: $Letra;
+        font-size: 2vw;
+        text-align: center;
+    }
+    .texto{
+        font-size: 2vw;
+    }
+
+    .logo{
+        height: 220px;
+        margin: auto;
+        text-align: center;
+        transition: all 2s;  
+        &:hover {
+            height: 250px; width: 250px;
+         }  
+    }
+    .mapa{
+        height: 500px;
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+}  
