@@ -1,12 +1,25 @@
 .pie{
     background-color: #fffcfc;
-    height: 60px;
+    height: 120px;
     bottom: 0;
     text-align: center;
     width: 100%;
-    position: fixed;
+    position: relative;
         a{
             font-size: 30px;
             letter-spacing: 15px;
         }
     }
+@media only screen and (min-width:768px){
+.pie{
+    background-color: #fffcfc;
+    height: 50px;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+        a{
+            font-size: 30px;
+            letter-spacing: 15px;
+        }
+    }}

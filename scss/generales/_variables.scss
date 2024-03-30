@@ -36,6 +36,20 @@ h2{
 .formulario{
     text-align: center;
 }
+.imagen{
+    height: 400px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cartas{
+        height: 300px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}  
 
 
 @media only screen and (min-width:768px){
@@ -50,21 +64,37 @@ h2{
         text-align: center;
     }
     .texto{
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
-
+    .formulario{
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+        resize: vertical;
+        text-align: center;
+    }
     .logo{
         height: 220px;
         margin: auto;
         text-align: center;
-        transition: all 2s;  
-        &:hover {
-            height: 250px; width: 250px;
-         }  
     }
     .mapa{
         height: 500px;
         width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imagen{
+        height: 400px;
+        width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cartas{
+        height: 550px;
+        width: 550px;
         display: block;
         margin-left: auto;
         margin-right: auto;

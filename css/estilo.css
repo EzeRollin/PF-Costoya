@@ -41,6 +41,22 @@ h2 {
   text-align: center;
 }
 
+.imagen {
+  height: 400px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cartas {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media only screen and (min-width: 768px) {
   h1 {
     font-family: "Protest Revolution", sans-serif;
@@ -53,21 +69,37 @@ h2 {
     text-align: center;
   }
   .texto {
-    font-size: 2vw;
+    font-size: 1.5vw;
+  }
+  .formulario {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    resize: vertical;
+    text-align: center;
   }
   .logo {
     height: 220px;
     margin: auto;
     text-align: center;
-    transition: all 2s;
-  }
-  .logo:hover {
-    height: 250px;
-    width: 250px;
   }
   .mapa {
     height: 500px;
     width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .imagen {
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cartas {
+    height: 550px;
+    width: 550px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -80,8 +112,8 @@ h2 {
 
 .barra {
   background-color: #fffcfc;
-  font-size: 10px;
-  width: auto;
+  font-size: 15px;
+  width: 100%;
 }
 .barra a {
   color: inherit;
@@ -108,17 +140,31 @@ h2 {
 }
 .pie {
   background-color: #fffcfc;
-  height: 60px;
+  height: 120px;
   bottom: 0;
   text-align: center;
   width: 100%;
-  position: fixed;
+  position: relative;
 }
 .pie a {
   font-size: 30px;
   letter-spacing: 15px;
 }
 
+@media only screen and (min-width: 768px) {
+  .pie {
+    background-color: #fffcfc;
+    height: 50px;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+  .pie a {
+    font-size: 30px;
+    letter-spacing: 15px;
+  }
+}
 .carta {
   display: flex;
   flex-direction: column;
