@@ -18,9 +18,9 @@ h2{
     text-align: center;
 }
 .logo{
-    height: 100px;
-    margin: auto;
-    text-align: center;
+    height: 150px;
+  display: flex;
+  justify-content: center;
 }
 .fondo{
     background-color:$Fondo;
@@ -40,8 +40,8 @@ h2{
     height: 400px;
     width: 300px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    align-items: center;
 }
 .cartas{
         height: 300px;
@@ -74,23 +74,28 @@ h2{
         text-align: center;
     }
     .logo{
-        height: 220px;
-        margin: auto;
-        text-align: center;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
     }
     .mapa{
         height: 500px;
         width: 500px;
-        display: block;
+        display: flex;
         margin-left: auto;
         margin-right: auto;
+        justify-content: center;
+        align-items: center;
     }
     .imagen{
         height: 400px;
         width: 400px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .cartas{
         height: 550px;
